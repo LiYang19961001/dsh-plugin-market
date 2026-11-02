@@ -1,0 +1,75 @@
+{
+    "format":  1,
+    "title":  {
+                  "en":  "LiYang DSH Plugins",
+                  "zh":  "李洋的 DSH 插件"
+              },
+    "description":  {
+                        "en":  "Plugins published by LiYang19961001 for DeepSeek Harness.",
+                        "zh":  "李洋（LiYang19961001）发布给 DeepSeek Harness 使用的插件。"
+                    },
+    "metadata":  {
+                     "categories":  {
+                                        "integration":  {
+                                                            "title":  {
+                                                                          "en":  "Integrations",
+                                                                          "zh":  "集成"
+                                                                      }
+                                                        }
+                                    },
+                     "labels":  {
+
+                                },
+                     "sortKeys":  {
+
+                                  }
+                 },
+    "plugins":  [
+                    {
+                        "name":  "dsh-plugin-github",
+                        "title":  {
+                                      "en":  "GitHub",
+                                      "zh":  "GitHub"
+                                  },
+                        "description":  {
+                                            "en":  "GitHub tools: generic REST calls, repository/issue/code search, and repository file reads, using the token already configured on the machine.",
+                                            "zh":  "GitHub 工具：通用 REST 调用、仓库/Issue/代码搜索、仓库文件读取，复用本机已配置的 token。"
+                                        },
+                        "icon":  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdpdEh1YiI+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iOCIgZmlsbD0iIzBkMTExNyIvPgogIDxwYXRoIGQ9Ik0xNiA2LjRhOS42IDkuNiAwIDAgMC0zLjA0IDE4LjcxYy40OC4wOS42Ni0uMjEuNjYtLjQ2di0xLjYzYy0yLjY3LjU4LTMuMjMtMS4yOS0zLjIzLTEuMjktLjQ0LTEuMTEtMS4wNy0xLjQxLTEuMDctMS40MS0uODctLjYuMDctLjU4LjA3LS41OC45Ni4wNyAxLjQ3Ljk5IDEuNDcuOTkuODYgMS40NyAyLjI1IDEuMDQgMi44LjguMDktLjYyLjM0LTEuMDQuNjEtMS4yOC0yLjEzLS4yNC00LjM3LTEuMDctNC4zNy00Ljc1IDAtMS4wNS4zOC0xLjkxIDEtMi41OC0uMS0uMjQtLjQzLTEuMjIuMDktMi41NCAwIDAgLjgxLS4yNiAyLjY1Ljk5YTkuMiA5LjIgMCAwIDEgNC44MyAwYzEuODQtMS4yNSAyLjY1LS45OSAyLjY1LS45OS41MiAxLjMyLjE5IDIuMy4wOSAyLjU0LjYyLjY3IDEgMS41MyAxIDIuNTggMCAzLjY5LTIuMjUgNC41MS00LjM5IDQuNzUuMzUuMy42NS44OC42NSAxLjc4djIuNjRjMCAuMjYuMTguNTYuNjcuNDZBOS42IDkuNiAwIDAgMCAxNiA2LjR6IiBmaWxsPSIjZjBmNmZjIi8+Cjwvc3ZnPgo=",
+                        "author":  "LiYang19961001",
+                        "homepage":  "https://github.com/LiYang19961001/dsh-plugin-github",
+                        "repository":  {
+                                           "url":  "https://github.com/LiYang19961001/dsh-plugin-github"
+                                       },
+                        "metadata":  {
+                                         "category":  "integration",
+                                         "keywords":  [
+                                                          "github",
+                                                          "git",
+                                                          "api",
+                                                          "repositories",
+                                                          "issues",
+                                                          "pull requests",
+                                                          "search"
+                                                      ],
+                                         "labels":  [
+
+                                                    ],
+                                         "sortKeys":  {
+
+                                                      }
+                                     },
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.0",
+                                             "publishTimestamp":  1793609640,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/LiYang19961001/dsh-plugin-github",
+                                                            "commit":  "f71ebc3874e4f76b17608ca66ba668620255912c"
+                                                        }
+                                         }
+                                     ]
+                    }
+                ]
+}
