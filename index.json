@@ -15,7 +15,13 @@
                                                                           "en":  "Integrations",
                                                                           "zh":  "集成"
                                                                       }
-                                                        }
+                                                        },
+                                        "finance":  {
+                                                        "title":  {
+                                                                      "en":  "Finance",
+                                                                      "zh":  "财务"
+                                                                  }
+                                                    }
                                     },
                      "labels":  {
 
@@ -67,6 +73,52 @@
                                                             "type":  "git",
                                                             "url":  "https://github.com/LiYang19961001/dsh-plugin-github",
                                                             "commit":  "f71ebc3874e4f76b17608ca66ba668620255912c"
+                                                        }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "dsh-plugin-finance-ocr",
+                        "title":  {
+                                      "en":  "Finance Image OCR",
+                                      "zh":  "财务图片核对"
+                                  },
+                        "description":  {
+                                            "en":  "Local offline OCR for finance document photos (invoices, reimbursement forms, vouchers, ledger screenshots): extract rows with source coordinates, hard-check detail-vs-total invariants with Decimal, then export traceable Excel workbooks. Batch folders too.",
+                                            "zh":  "本地离线识别发票、报销单、记账凭证、台账截图等财务图片：提取带原图坐标的结构化行，按「明细=合计」等守恒关系用 Decimal 硬校验，导出可追溯的 Excel（支持整文件夹批量）。"
+                                        },
+                        "icon":  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Iui0ouWKoeWbvueJh+aguOWvuSI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzFjM2Y2ZSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwZjI1NDciLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHg9IjIiIHk9IjIiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcng9IjE0IiBmaWxsPSJ1cmwoI2JnKSIvPgogIDwhLS0g5Y2V5o2uIC0tPgogIDxwYXRoIGQ9Ik0xNyAxMmgyMGw4IDh2MjZhNCA0IDAgMCAxLTQgNEgyMWE0IDQgMCAwIDEtNC00VjE2YTQgNCAwIDAgMSA0LTR6IiBmaWxsPSIjZjVmOGZjIi8+CiAgPHBhdGggZD0iTTM3IDEydjhoOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOWRiNmQ2IiBzdHJva2Utd2lkdGg9IjIuNCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxnIHN0cm9rZT0iIzViN2JhNiIgc3Ryb2tlLXdpZHRoPSIyLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICA8bGluZSB4MT0iMjEiIHkxPSIyNiIgeDI9IjM0IiB5Mj0iMjYiLz4KICAgIDxsaW5lIHgxPSIyMSIgeTE9IjMxIiB4Mj0iMzgiIHkyPSIzMSIvPgogICAgPGxpbmUgeDE9IjIxIiB5MT0iMzYiIHgyPSIzMCIgeTI9IjM2Ii8+CiAgPC9nPgogIDwhLS0g5pS+5aSn6ZWcIC0tPgogIDxjaXJjbGUgY3g9IjM5IiBjeT0iNDAiIHI9IjguNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZjODYxIiBzdHJva2Utd2lkdGg9IjMuMiIvPgogIDxsaW5lIHgxPSI0NS4yIiB5MT0iNDYuMiIgeDI9IjUyIiB5Mj0iNTMiIHN0cm9rZT0iI2ZmYzg2MSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8IS0tIOWvueWLviAtLT4KICA8cGF0aCBkPSJNMjAuNSA0NS41bDQuMiA0LjIgOC4zLTkuNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNTdkMjlhIiBzdHJva2Utd2lkdGg9IjMuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+                        "author":  "LiYang19961001",
+                        "homepage":  "https://github.com/LiYang19961001/dsh-plugin-finance-ocr",
+                        "repository":  {
+                                           "url":  "https://github.com/LiYang19961001/dsh-plugin-finance-ocr"
+                                       },
+                        "metadata":  {
+                                         "category":  "finance",
+                                         "keywords":  [
+                                                          "finance",
+                                                          "ocr",
+                                                          "invoice",
+                                                          "reimbursement",
+                                                          "excel",
+                                                          "offline",
+                                                          "tables"
+                                                      ],
+                                         "labels":  [
+
+                                                    ],
+                                         "sortKeys":  {
+
+                                                      }
+                                     },
+                        "versions":  [
+                                         {
+                                             "version":  "0.1.0",
+                                             "publishTimestamp":  1793602237,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/LiYang19961001/dsh-plugin-finance-ocr",
+                                                            "commit":  "7825b01a3bd88afa7e6fd88efdf610f6e1ef8a35"
                                                         }
                                          }
                                      ]
