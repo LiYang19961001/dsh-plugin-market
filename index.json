@@ -113,12 +113,12 @@
                                      },
                         "versions":  [
                                          {
-                                             "version":  "0.2.10",
-                                             "publishTimestamp":  1793671052,
+                                             "version":  "0.2.11",
+                                             "publishTimestamp":  1793672439,
                                              "source":  {
                                                             "type":  "git",
                                                             "url":  "https://github.com/LiYang19961001/dsh-plugin-finance-ocr",
-                                                            "commit":  "964dbd7e4e91cdf29454e334f8445d15dd7796a8"
+                                                            "commit":  "be9562f0c25f6c3df475094d382fbdaf57e339ba"
                                                         }
                                          }
                                      ]
