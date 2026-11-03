@@ -68,11 +68,11 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.1",
-                                             "publishTimestamp":  1793695085,
+                                             "publishTimestamp":  1793694504,
                                              "source":  {
                                                             "type":  "git",
                                                             "url":  "https://github.com/LiYang19961001/dsh-plugin-github",
-                                                            "commit":  "c4d9387caa6663368f1e11a2f2ac901cda05fe91"
+                                                            "commit":  "8f4af1ca1e2c7f705f5e7c12961aacae155da337"
                                                         }
                                          }
                                      ]
@@ -114,11 +114,11 @@
                         "versions":  [
                                          {
                                              "version":  "0.2.15",
-                                             "publishTimestamp":  1793693695,
+                                             "publishTimestamp":  1793695194,
                                              "source":  {
                                                             "type":  "git",
                                                             "url":  "https://github.com/LiYang19961001/dsh-plugin-finance-ocr",
-                                                            "commit":  "ee4cfd533f14d8649f570a2727cce0b8d3ad7929"
+                                                            "commit":  "c4d9387caa6663368f1e11a2f2ac901cda05fe91"
                                                         }
                                          }
                                      ]
