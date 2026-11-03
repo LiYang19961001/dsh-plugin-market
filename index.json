@@ -68,11 +68,11 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.1",
-                                             "publishTimestamp":  1793666264,
+                                             "publishTimestamp":  1793694504,
                                              "source":  {
                                                             "type":  "git",
                                                             "url":  "https://github.com/LiYang19961001/dsh-plugin-github",
-                                                            "commit":  "dfd40c49808ca5e239337919b3546f4c7e501275"
+                                                            "commit":  "8f4af1ca1e2c7f705f5e7c12961aacae155da337"
                                                         }
                                          }
                                      ]
@@ -113,7 +113,7 @@
                                      },
                         "versions":  [
                                          {
-                                             "version":  "0.2.13",
+                                             "version":  "0.2.14",
                                              "publishTimestamp":  1793693695,
                                              "source":  {
                                                             "type":  "git",
